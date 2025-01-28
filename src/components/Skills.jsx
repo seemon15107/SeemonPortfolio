@@ -6,7 +6,7 @@ import tailwind from "../assets/tailwind.png"
 import java from "../assets/java.png"
 import database from "../assets/database.png"
 import docker from "../assets/docker.png"
-import api from "../assets/api.png"
+import aws from "../assets/aws.png"
 
 
 const Skills=()=>{
@@ -47,9 +47,9 @@ const Skills=()=>{
                 <img src={docker} alt="html" />
                 <p className="mt-2">DOCKER</p>
             </div>
-            <div className="flex flex-col items-center m-4 sm:my-0 w-[80px] md:w-[100px]">
-                <img src={api} alt="html" />
-                <p className="mt-2">REST API</p>
+            <div className="flex flex-col items-center m-4 sm:my-6 w-[100px] md:w-[100px]">
+                <img src={aws} alt="html" />
+                <p className="mt-8">AWS</p>
             </div>
         </div>
     )

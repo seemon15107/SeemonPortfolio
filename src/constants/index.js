@@ -1,6 +1,6 @@
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.webp";
-import project3 from "../assets/project3.jpg";
+import project3 from "../assets/project3.webp";
 
 
 
@@ -41,13 +41,14 @@ export const PROJECTS = [
     link: "https://github.com/seemon15107/Fun-App",
   },
   {
-    name: "Royal Fitness Gym",
-    description: "Your ultimate destination for strength, endurance, and well-being—train smarter, live stronger."
+    name: "server Less WebApp",
+    description: "A serverless web application designed for scalability, efficiency, and seamless user experience."
 ,
     image: project3,
     link: "https://github.com/your-github/hairrevive",
   },
 ];
+
 
 export const ABOUT_CONTENT = {
   paragraphs: [
